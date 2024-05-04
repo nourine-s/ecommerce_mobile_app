@@ -29,8 +29,7 @@ class About extends StatelessWidget {
             children: [
               Text('Mobile app using flutter made by:'),
               Text('Nourine Sameh'),
-              Text('Ebtissam Khaled'),
-              Text('Yasmin Tarek')
+              
             ],
           ),
         ));
