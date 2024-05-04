@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1002207489149",
+    "project_id": "fmobile-2a919",
+    "storage_bucket": "fmobile-2a919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002207489149:android:260053c9c8de2d600f1514",
+        "android_client_info": {
+          "package_name": "com.example.fmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrC013fYyuRfVaVKMONmQ8hbNb2bt7kjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
