@@ -10,7 +10,6 @@ class ProfileScreen extends StatefulWidget {
   @override
   State<ProfileScreen> createState() => _EditProfileScreenState();
 }
-
 class _EditProfileScreenState extends State<ProfileScreen> {
   final user = FirebaseAuth.instance.currentUser!;
   final usersCollection = FirebaseFirestore.instance.collection('Users');
