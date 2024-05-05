@@ -7,7 +7,6 @@ class ForgetScreen extends StatefulWidget {
   @override
   State<ForgetScreen> createState() => _ForgetScreenState();
 }
-
 class _ForgetScreenState extends State<ForgetScreen> {
   final _emailController = TextEditingController();
 
