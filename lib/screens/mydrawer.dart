@@ -10,7 +10,7 @@ class MyDrawer extends StatelessWidget {
       Navigator.pop(context);
       Navigator.of(context).pushReplacementNamed('HomeScreen');
     }
-
+    
     void openProfileScreen() {
       Navigator.of(context).pushReplacementNamed('ProfileScreen');
     }
