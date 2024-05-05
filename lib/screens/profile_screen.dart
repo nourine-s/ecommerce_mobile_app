@@ -109,7 +109,7 @@ class _EditProfileScreenState extends State<ProfileScreen> {
                       ),
                       TextBox(
                         sectionName: 'First name',
-                        text: userData['first name'] ?? '',
+                        text: userData['first name'] ,
                         onPressed: () => editField('first name'),
                       ),
                       TextBox(
