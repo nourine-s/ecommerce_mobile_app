@@ -38,69 +38,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
     return htmlString.replaceAll(exp, '');
   }
 
-  List<Item> items = [
-    Item('Raw African', 'assets/images/rawafrican.jpg', 'Hair growth oil', 0,
-        250),
-    Item('Shaan', 'assets/images/shaan.jpg', 'Moisturizing Gel', 0, 120),
-    Item('Sun Screen', 'assets/images/sunscreen.jpg',
-        'Protect the skin from UV', 0, 200),
-    Item('Hyaluronic acid ', 'assets/images/hylnacid.jpg',
-        'Moisturize the skin ', 0, 300),
-    Item(
-      'Argento',
-      'assets/images/argento.jpg',
-      'Face Cleanser',
-      0,
-      150,
-    ),
-    Item(
-      'Clary scalp scrub',
-      'assets/images/clary.jpg',
-      ' Exfoliates the scalp',
-      0,
-      300,
-    ),
-    Item(
-      'Bless',
-      'assets/images/bless.jpg',
-      ' Hair shampoo ',
-      0,
-      140,
-    ),
-    Item(
-      'Avon',
-      'assets/images/avon.jpg',
-      ' Hair shampoo ',
-      0,
-      200,
-    ),
-    Item(
-      'Dr Rashel ',
-      'assets/images/drrashel.jpg',
-      'Moisturize the skin ',
-      0,
-      400,
-    ),
-    Item('Dermactive Acti-White', 'assets/images/dermactiveeye.jpg',
-        'Brightening serum', 0, 250),
-    Item('Clary Hair serum', 'assets/images/claryserum.jpeg',
-        'Anti-frizz effect', 0, 400),
-    Item(
-      'Fair and lovely',
-      'assets/images/fairandlovely.jpg',
-      'Whitening cream',
-      0,
-      70,
-    ),
-    Item('Azha Vitamin C Serum', 'assets/images/azha.jpg',
-        'Reduce pigmentation ', 0, 100),
-    Item('Faster hair spray', 'assets/images/faster.jpg',
-        'Speed up hair growth', 0, 150),
-    Item('Clary Hair Mask', 'assets/images/claryhairmask.jpeg',
-        'Repair your hair', 0, 350),
-    Item('Dermactive Anti-clear', 'assets/images/dermactiveserum.jpg',
-        'Correcting serum', 0, 250),
-  ];
+ 
   @override
   Widget build(BuildContext context) {
     return Consumer<Cart>(builder: ((context, cart, child) {
