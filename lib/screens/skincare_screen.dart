@@ -38,40 +38,6 @@ class _SkinCareScreenState extends State<SkinCareScreen> {
     return htmlString.replaceAll(exp, '');
   }
 
-  List<Item> items = [
-    Item('Shaan', 'assets/images/shaan.jpg', 'Moisturizing Gel', 0, 120),
-    Item('Dermactive Anti-clear', 'assets/images/dermactiveserum.jpg',
-        'Correcting serum', 0, 250),
-    Item('Sun Screen', 'assets/images/sunscreen.jpg',
-        'Protect the skin from UV', 0, 200),
-    Item('Hyaluronic acid ', 'assets/images/hylnacid.jpg',
-        'Moisturize the skin ', 0, 300),
-    Item(
-      'Argento',
-      'assets/images/argento.jpg',
-      'Face Cleanser',
-      0,
-      150,
-    ),
-    Item(
-      'Dr Rashel ',
-      'assets/images/drrashel.jpg',
-      'Moisturize the skin ',
-      0,
-      400,
-    ),
-    Item(
-      'Fair and lovely',
-      'assets/images/fairandlovely.jpg',
-      'Whitening cream',
-      0,
-      70,
-    ),
-    Item('Azha Vitamin C Serum', 'assets/images/azha.jpg',
-        'Reduce pigmentation ', 0, 100),
-    Item('Dermactive Acti-White', 'assets/images/dermactiveeye.jpg',
-        'Brightening serum', 0, 250),
-  ];
   @override
   Widget build(BuildContext context) {
     return Consumer<Cart>(builder: ((context, cart, child) {
