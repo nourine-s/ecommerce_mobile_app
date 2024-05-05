@@ -38,35 +38,6 @@ class _HairCareScreenState extends State<HairCareScreen> {
     return htmlString.replaceAll(exp, '');
   }
 
-  List<Item> items = [
-    Item('Clary Hair serum', 'assets/images/claryserum.jpeg',
-        'Anti-frizz effect', 0, 400),
-    Item('Raw African', 'assets/images/rawafrican.jpg', 'Hair growth oil', 0,
-        250),
-    Item(
-      'Bless',
-      'assets/images/bless.jpg',
-      ' Hair shampoo ',
-      0,
-      140,
-    ),
-    Item(
-      'Avon',
-      'assets/images/avon.jpg',
-      ' Hair shampoo ',
-      0,
-      200,
-    ),
-    Item(
-      'Clary scrub',
-      'assets/images/clary.jpg',
-      ' Exfoliates the scalp',
-      0,
-      300,
-    ),
-    Item('Clary Hair Mask', 'assets/images/claryhairmask.jpeg',
-        'Repair your hair', 0, 350),
-  ];
   @override
   Widget build(BuildContext context) {
     return Consumer<Cart>(builder: ((context, cart, child) {
