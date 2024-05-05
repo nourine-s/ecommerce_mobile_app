@@ -28,8 +28,7 @@ class About extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text('Mobile app using flutter made by:'),
-              Text('Nourine Sameh'),
-              
+              Text('Nourine Sameh'),      
             ],
           ),
         ));
