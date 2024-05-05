@@ -10,7 +10,6 @@ class SignUpScreen extends StatefulWidget {
   @override
   State<SignUpScreen> createState() => _SignUpScreenState();
 }
-
 class _SignUpScreenState extends State<SignUpScreen> {
   final baseUrl =
       'https://woo-fortunately-delightful-amphisbaena.wpcomstaging.com';
