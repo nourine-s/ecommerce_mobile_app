@@ -11,7 +11,6 @@ class CheckoutSheet extends StatefulWidget {
   @override
   State<CheckoutSheet> createState() => _CheckoutSheetState();
 }
-
 class _CheckoutSheetState extends State<CheckoutSheet> {
   final user = FirebaseAuth.instance.currentUser!;
   final _addressController = TextEditingController();
