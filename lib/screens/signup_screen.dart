@@ -410,7 +410,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     obscureText: true,
                     decoration: const InputDecoration(
                       border: InputBorder.none,
-                      hintText: 'Comfirm Password',
+                      hintText: 'Confirm Password',
                     ),
                   ),
                 ),
